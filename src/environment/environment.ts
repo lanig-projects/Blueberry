@@ -1,3 +1,6 @@
 export const environment = {
-  appVersion: process.env.APP_VERSION
+  app: {
+    name: process.env.APP_NAME,
+    version: process.env.APP_VERSION
+  }
 };

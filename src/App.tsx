@@ -1,6 +1,7 @@
 import { SharedContext } from "@shared/context/SharedContext";
 import { CoreLayout } from "@core/layouts/Core.layout";
 import { Colors } from "@core/constants/Colors";
+import { ConfigRoutes } from "@core/constants/ConfigRoutes";
 
 export const App = () => {
   return (

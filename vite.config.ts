@@ -13,7 +13,8 @@ export default defineConfig({
       '@environment': '/src/environment',
       '@routes': '/src/routes',
       '@core': '/src/app/@core',
-      '@shared': '/src/app/@shared'
+      '@shared': '/src/app/@shared',
+      '@default': '/src/app/@default'
     }
   },
   server: {

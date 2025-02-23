@@ -38,6 +38,9 @@
       ],
       "@core/*": [
         "./src/app/@core/*"
+      ],
+      "@default/*": [
+        "./src/app/@default/*"
       ]
     }
   },
