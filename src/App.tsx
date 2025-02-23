@@ -1,12 +1,10 @@
 import { SharedContext } from "@shared/context/SharedContext";
-import { BaseLayout } from "@core/layouts/Base.layout";
-import { ConfigRoutes } from "@core/constants/ConfigRoutes";
-import { Colors } from "@core/constants/Colors";
+import { CoreLayout } from "@core/layouts/Core.layout";
 
 export const App = () => {
   return (
     <SharedContext
-      baseLayout={BaseLayout}
+      baseLayout={CoreLayout}
       configRoutes={ConfigRoutes}
       colorPrimary={Colors.primary}
     />
