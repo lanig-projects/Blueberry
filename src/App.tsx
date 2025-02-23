@@ -1,4 +1,4 @@
-import { SharedContext } from "@shared/context/SharedContext";
+import { SharedContext } from "@shared/context/Shared.context";
 import { CoreLayout } from "@core/layouts/Core.layout";
 import { Colors } from "@core/constants/Colors";
 import { ConfigRoutes } from "@core/constants/ConfigRoutes";
